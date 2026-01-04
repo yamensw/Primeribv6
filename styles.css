@@ -19,7 +19,7 @@
   --blur-nav: 22px;
 
   /* Larger to fit the upgraded wordmark comfortably */
-  --nav-h: 60px;
+  --nav-h: 72px;
 
   --radius: 26px;
   --radius-lg: 30px;
@@ -113,7 +113,7 @@ img{max-width:100%; display:block}
   align-items:center;
   gap:8px;
   /* Remove extra padding so the mark is closer to the left edge */
-  padding: 0;
+  padding: -20;
   margin-left: -12px;
 }
 .brand img{
