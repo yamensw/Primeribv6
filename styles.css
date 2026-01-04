@@ -19,7 +19,7 @@
   --blur-nav: 22px;
 
   /* Larger to fit the upgraded wordmark comfortably */
-  --nav-h: 67px;
+  --nav-h: 60px;
 
   --radius: 26px;
   --radius-lg: 30px;
@@ -118,7 +118,7 @@ img{max-width:100%; display:block}
 }
 .brand img{
   /* ~1.5x larger than the previous (3x) setting */
-  height:86px;
+  height:100px;
   width:auto;
   filter: drop-shadow(0 6px 18px rgba(0,0,0,.28));
 }
@@ -133,7 +133,7 @@ img{max-width:100%; display:block}
 }
 .navlinks a{
   position:relative;
-  padding: 10px 10px;
+  padding: 10px 100px;
   border-radius: 10px;
   transition: transform .18s var(--ease), color .18s var(--ease);
 }
