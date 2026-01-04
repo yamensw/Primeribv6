@@ -19,7 +19,7 @@
   --blur-nav: 22px;
 
   /* Larger to fit the upgraded wordmark comfortably */
-  --nav-h: 72px;
+  --nav-h: 67px;
 
   --radius: 26px;
   --radius-lg: 30px;
@@ -114,11 +114,11 @@ img{max-width:100%; display:block}
   gap:8px;
   /* Remove extra padding so the mark is closer to the left edge */
   padding: 0;
-  margin-left: -6px;
+  margin-left: -10px;
 }
 .brand img{
   /* ~1.5x larger than the previous (3x) setting */
-  height:81px;
+  height:86px;
   width:auto;
   filter: drop-shadow(0 6px 18px rgba(0,0,0,.28));
 }
@@ -133,7 +133,7 @@ img{max-width:100%; display:block}
 }
 .navlinks a{
   position:relative;
-  padding: 10px 6px;
+  padding: 10px 10px;
   border-radius: 10px;
   transition: transform .18s var(--ease), color .18s var(--ease);
 }
