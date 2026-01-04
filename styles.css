@@ -19,10 +19,10 @@
   --blur-nav: 22px;
 
   /* Larger to fit the upgraded wordmark comfortably */
-  --nav-h: 82px;
+  --nav-h: 72px;
 
   --radius: 26px;
-  --radius-lg: 34px;
+  --radius-lg: 30px;
 
   --ease: cubic-bezier(.2,.9,.2,1);
   --ease-out: cubic-bezier(.16,1,.3,1);
