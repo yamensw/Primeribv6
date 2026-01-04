@@ -114,7 +114,7 @@ img{max-width:100%; display:block}
   gap:8px;
   /* Remove extra padding so the mark is closer to the left edge */
   padding: 0;
-  margin-left: -10px;
+  margin-left: -35px;
 }
 .brand img{
   /* ~1.5x larger than the previous (3x) setting */
