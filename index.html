@@ -1,255 +1,362 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Prime Rig — WebAR Virtual Showrooms</title>
-  <link rel="icon" type="image/png" href="assets/favicon.png" />
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Prime Rig is a browser-based AR showroom stack for restaurants, retailers, real estate, and creators—no app install." />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PJCL446JE6"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PJCL446JE6');
+</script>
+<title>Prime Rig — WebAR Virtual Showrooms</title>
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="styles.css" rel="stylesheet"/>
+<meta content="Prime Rig builds browser-based WebAR showrooms that let customers view products, menu items, and spaces in 3D at true scale—no app required." name="description">
+<link href="https://prime-rig.com/" rel="canonical"/>
+<meta content="index, follow" name="robots"/>
+<meta content="Prime Rig — WebAR Showrooms for Business" property="og:title"/>
+<meta content="Showcase your products, spaces, and menus in 3D using Prime Rig’s browser-based AR technology." property="og:description"/>
+<meta content="https://prime-rig.com/" property="og:url"/>
+<meta content="https://prime-rig.com/assets/og-image.jpg" property="og:image"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Prime Rig — WebAR Showrooms" name="twitter:title"/>
+<meta content="3D browser-based AR experiences for business. No app required." name="twitter:description"/>
+<meta content="https://prime-rig.com/assets/og-image.jpg" name="twitter:image"/>
+</meta></head>
 <body>
-  <div class="bg-orb one" aria-hidden="true"></div>
-  <div class="bg-orb two" aria-hidden="true"></div>
+<a class="skip-link" href="#top">Skip to main content</a>
+<div aria-hidden="true" class="bg-orb one"></div>
+<div aria-hidden="true" class="bg-orb two"></div>
 
-  <header class="nav">
-    <div class="wrap">
-      <div class="bar">
-        <a class="brand" href="#top" aria-label="Prime Rig home">
-          <img src="assets/logo.png" alt="Prime Rig" />
-        </a>
+<header class="nav">
+<div class="wrap">
+<div class="bar">
+<a aria-label="Prime Rig home" class="brand" href="#top">
+<img alt="Prime Rig" src="assets/logo.png"/>
+</a>
+<nav aria-label="Primary" class="navlinks">
+<button aria-controls="mobileMenu" aria-expanded="false" class="menuBtn btn secondary" id="menuBtn" type="button"><span>Menu</span></button>
+<a href="#showroom">Showroom</a>
+<a href="#industries">Industries</a>
+<a href="#packages">Packages</a>
 
-        <nav class="navlinks" aria-label="Primary">
-          <a href="#showroom">Showroom</a>
-          <a href="#industries">Industries</a>
-          <a href="#packages">Packages</a>
-          <a href="#about">About</a>
-          <a href="#demo">Request a Demo</a>
-        </nav>
-      </div>
-    </div>
-  </header>
+<!-- Dropdown Menu for About -->
+<div class="nav-item dropdown">
+  <span class="dropdown-trigger">
+    <span>About</span>
+    <span class="dropdown-arrow">▼</span>
+  </span>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#about">About Prime Rig</a>
+    <a class="dropdown-item" href="#origin">Origin Story</a>
+    <a class="dropdown-item" href="#mission">Mission</a>
+    <a class="dropdown-item" href="#vision">Vision</a>
+    <a class="dropdown-item" href="about-founder.html">Founder</a> <!-- Link to separate page -->
+  </div>
+</div>
 
-  <main id="top">
-    <section class="hero">
-      <div class="wrap">
-        <div class="glass heroCard reveal in">
-          <div class="heroMedia">
-            <video data-hero autoplay muted loop playsinline preload="metadata">
-              <source src="assets/prime-rig-hero-updated.mp4" type="video/mp4" />
-            </video>
-          </div>
+<a href="#demo">Request a Demo</a>
+</nav>
+</div>
+</div>
+</header>
 
-          <div class="heroInner">
-            <div class="kicker">WEBAR • VIRTUAL SHOWROOMS • NO APP</div>
-            <h1 class="h1">A showroom of what augmented reality can do for business.</h1>
-            <p class="lede">
+<!-- Mobile menu with dropdown -->
+<div aria-hidden="true" class="mobileMenu" id="mobileMenu">
+<div aria-label="Navigation menu" class="mobileMenuInner glass" role="dialog">
+<a href="#showroom">Showroom</a>
+<a href="#industries">Industries</a>
+<a href="#packages">Packages</a>
+
+<!-- Dropdown in Mobile Menu -->
+<div class="nav-item dropdown">
+  <span class="dropdown-trigger">
+    <span>About</span>
+    <span class="dropdown-arrow">▼</span>
+  </span>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#about">About Prime Rig</a>
+    <a class="dropdown-item" href="#origin">Origin Story</a>
+    <a class="dropdown-item" href="#mission">Mission</a>
+    <a class="dropdown-item" href="#vision">Vision</a>
+    <a class="dropdown-item" href="about-founder.html">Founder</a>
+  </div>
+</div>
+
+<a href="#demo">Request a Demo</a>
+</div>
+</div>
+
+<main id="top" aria-label="Prime Rig main content">
+<section class="hero">
+<div class="wrap">
+<div class="glass heroCard reveal in">
+<div class="heroMedia">
+<video autoplay="" data-hero="" loop="" muted="" playsinline="" preload="metadata">
+<source src="assets/prime-rig-hero-updated.mp4" type="video/mp4"/>
+</video>
+</div>
+<div class="heroInner">
+<div class="kicker">WEBAR • VIRTUAL SHOWROOMS • NO APP</div>
+<h1 class="h1">A showroom of what augmented reality can do for business.</h1>
+<p class="lede">
               Prime Rig is a curated set of browser-based AR experiences that help restaurants showcase menus,
               brands present products and art in a dust-free virtual showroom, and real estate teams communicate
               space with confidence.
             </p>
+<div class="actions">
+<button class="btn primary" onclick="document.querySelector('#showroom').scrollIntoView({behavior:'smooth'})" type="button">
+<span>Enter the Showroom</span>
+</button>
+<button class="btn secondary" onclick="document.querySelector('#industries').scrollIntoView({behavior:'smooth'})" type="button">
+<span>Explore Industries</span>
+</button>
+</div>
+<div class="metaNote">Runs in the browser. No app install. Your 3D content is hosted and streamed like any modern web asset.</div>
+</div>
+</div>
+</div>
+</section>
 
-            <div class="actions">
-              <button class="btn primary" type="button" onclick="document.querySelector('#showroom').scrollIntoView({behavior:'smooth'})">
-                <span>Enter the Showroom</span>
-              </button>
-              <button class="btn secondary" type="button" onclick="document.querySelector('#industries').scrollIntoView({behavior:'smooth'})">
-                <span>Explore Industries</span>
-              </a>
-            </div>
+<section id="showroom" aria-label="Showroom demos">
+<div class="wrap">
+<div class="sectionHead">
+<h2 class="h2">Showroom Demos</h2>
+<p class="subhead">Each demo also has a dedicated page with standards + a request form.</p>
+</div>
+<div class="glass card reveal">
+<div class="tag">DEMO 01 • RESTAURANT / MENU</div>
+<h3 style="margin:10px 0 6px; font-size:24px; letter-spacing:-.01em;">AR Wedding Cake — Dessert Showcase</h3>
+<p>Ideal for bakeries, dessert shops, and catering menus. Customers can preview size, presentation, and details at true scale—boosting confidence and driving higher-intent orders.</p>
+<div class="iframe-wrap" style="height:480px; margin-top:14px;">
+<iframe src="https://app.vectary.com/p/00Kfl7sGhunTbkE2Elaj6O" frameborder="0" width="100%" height="480" allow="xr-spatial-tracking; fullscreen;" style="width:100%; height:100%; border:0;" loading="lazy" title="AR Wedding Cake Demo" allowfullscreen></iframe>
+</div>
+<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
+<a class="btn secondary" href="restaurant.html"><span>View Restaurant Page</span></a>
+</div>
+</div>
+<div style="height:14px"></div>
+<div class="glass card reveal">
+<div class="tag">DEMO 02 • PRODUCT / RETAIL</div>
+<h3 style="margin:10px 0 6px; font-size:24px; letter-spacing:-.01em;">Tesla Product Showcase</h3>
+<p>Let customers explore a product in 3D before buying. Great for PDP pages, kiosks, and sales teams sharing a single link during a call.</p>
+<div class="iframe-wrap" style="height:480px; margin-top:14px;">
+<iframe allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope; autoplay" allowfullscreen="" loading="lazy" src="https://app.vectary.com/viewer/v1/?model=8a84d340-f9a5-4c9c-9774-eb2c2ae4c0dc&amp;env=studio3" style="width:100%; height:100%; border:0;" title="Tesla Showcase"></iframe>
+</div>
+<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
+<a class="btn secondary" href="retail.html"><span>View Retail Page</span></a>
+</div>
+</div>
+<div style="height:14px"></div>
+<div class="glass card reveal">
+<div class="tag">DEMO 03 • REAL ESTATE / SPACE</div>
+<h3 style="margin:10px 0 6px; font-size:24px; letter-spacing:-.01em;">Space &amp; Scale</h3>
+<p>A space-focused demo showing how AR communicates fit, layout, and confidence—especially for staging, renovations, and new builds.</p>
+<div class="iframe-wrap" style="height:480px; margin-top:14px;">
+<iframe allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope; autoplay" allowfullscreen="" loading="lazy" src="https://app.vectary.com/viewer/v1/?model=e9937cd0-f99b-40b2-8313-058b89e11871&amp;env=studio3" style="width:100%; height:100%; border:0;" title="Space &amp; Scale"></iframe>
+</div>
+<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;">
+<a class="btn secondary" href="real-estate.html"><span>View Real Estate Page</span></a>
+</div>
+</div>
+</div>
+</section>
 
-            <div class="metaNote">Runs in the browser. No app install. Your 3D content is hosted and streamed like any modern web asset.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="showroom">
-      <div class="wrap">
-        <div class="sectionHead">
-          <h2 class="h2">Showroom Demos</h2>
-        </div>
-
-        <div class="glass card reveal">
-          <div class="tag">DEMO 01 • RESTAURANT / MENU</div>
-          <h3 style="margin:10px 0 6px; font-size:24px; letter-spacing:-.01em;">AR Pizza — Menu Item Showcase</h3>
-          <p>Perfect for QR menus, tabletop displays, and online ordering pages. Customers preview portion size and presentation, reducing uncertainty and increasing confident orders.</p>
-          <div style="margin-top:14px; border-radius:22px; overflow:hidden; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.14); height:420px;">
-            <!-- Replace with your actual WebAR embed when ready -->
-            <iframe title="AR Pizza Demo" src="https://app.vectary.com/viewer/v1/?model=350e6b11-2dc4-4b85-8076-0ed2a079733f&env=studio3" style="width:100%; height:100%; border:0;" loading="lazy" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope; autoplay" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div style="height:14px"></div>
-
-        <div class="glass card reveal">
-          <div class="tag">DEMO 02 • PRODUCT / RETAIL</div>
-          <h3 style="margin:10px 0 6px; font-size:24px; letter-spacing:-.01em;">Tesla Product Showcase</h3>
-          <p>Let customers explore a product in 3D before buying. Great for PDP pages, kiosks, and sales teams sharing a single link during a call.</p>
-          <div style="margin-top:14px; border-radius:22px; overflow:hidden; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.14); height:480px;">
-            <iframe title="Tesla Showcase" src="https://app.vectary.com/viewer/v1/?model=8a84d340-f9a5-4c9c-9774-eb2c2ae4c0dc&env=studio3" style="width:100%; height:100%; border:0;" loading="lazy" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope; autoplay" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div style="height:14px"></div>
-
-        <div class="glass card reveal">
-          <div class="tag">DEMO 03 • REAL ESTATE / SPACE</div>
-          <h3 style="margin:10px 0 6px; font-size:24px; letter-spacing:-.01em;">Space & Scale</h3>
-          <p>A space-focused demo showing how AR communicates fit, layout, and confidence—especially for staging, renovations, and new builds.</p>
-          <div style="margin-top:14px; border-radius:22px; overflow:hidden; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.14); height:480px;">
-            <iframe title="Space & Scale" src="https://app.vectary.com/viewer/v1/?model=e9937cd0-f99b-40b2-8313-058b89e11871&env=studio3" style="width:100%; height:100%; border:0;" loading="lazy" allow="fullscreen; xr-spatial-tracking; accelerometer; gyroscope; autoplay" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="industries">
-      <div class="wrap">
-        <div class="sectionHead">
-          <h2 class="h2">Industries</h2>
-        </div>
-
-        <div class="grid-3">
-          <div class="glass card reveal">
-            <div class="tag">Retail</div>
-            <p>Major retailers use AR to reduce returns and increase confidence: preview products at true scale, explore features, and “try” items before buying.</p>
-          </div>
-          <div class="glass card reveal">
-            <div class="tag">Consumer Tech</div>
-            <p>Companies like Apple, Amazon, and Best Buy have all leaned into AR experiences—making it normal for customers to interact with products visually, not just via photos.</p>
-          </div>
-          <div class="glass card reveal">
-            <div class="tag">Social + Discovery</div>
-            <p>Snapchat and Meta helped normalize AR for nearly a decade. Prime Rig takes that familiar interaction and brings it into business workflows.</p>
-          </div>
-        </div>
-
-        <div style="height:14px"></div>
-
-        <div class="glass card reveal">
-          <p>
+<section id="industries" aria-label="Industries we serve">
+<div class="wrap">
+<div class="sectionHead">
+<h2 class="h2">Industries</h2>
+</div>
+<div class="grid-3">
+<div class="glass card reveal">
+<div class="tag">Retail</div>
+<p>Major retailers use AR to reduce returns and increase confidence: preview products at true scale, explore features, and “try” items before buying.</p>
+<div style="margin-top:12px;"><a class="btn secondary" href="retail.html"><span>Retail Demo</span></a></div>
+</div>
+<div class="glass card reveal">
+<div class="tag">Restaurants</div>
+<p>Turn menu uncertainty into confident orders: show portion size and presentation with shareable AR links and QR codes.</p>
+<div style="margin-top:12px;"><a class="btn secondary" href="restaurant.html"><span>Restaurant Demo</span></a></div>
+</div>
+<div class="glass card reveal">
+<div class="tag">Real Estate</div>
+<p>Help buyers and teams understand space with true-scale visualization for staging, renovations, and new builds.</p>
+<div style="margin-top:12px;"><a class="btn secondary" href="real-estate.html"><span>Real Estate Demo</span></a></div>
+</div>
+</div>
+<div style="height:14px"></div>
+<div class="glass card reveal">
+<p>
             Unlike AI-heavy stacks, browser-based AR doesn’t require a large language model or a data-center-sized runtime.
             The experience streams lightweight 3D assets and runs locally on the customer’s device—fast, private, and scalable.
           </p>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
 
-    <section id="packages">
+<section id="packages">
       <div class="wrap">
         <div class="sectionHead">
           <h2 class="h2">Packages</h2>
+          <p class="sub">Prime Rig is built as a license + subscription model (with optional performance pricing). We’ll tailor a plan based on your volume and use‑case.</p>
         </div>
 
         <div class="grid-3">
           <div class="glass card reveal">
-            <div class="tag">STARTER</div>
-            <h3 style="margin:10px 0 2px; font-size:22px;">Launch One Showcase</h3>
-            <p style="font-size:30px; margin:6px 0 0; font-weight:850;">$149</p>
-            <p>For a single menu item or hero product.</p>
-            <p><b>Includes</b><br/>• 1 optimized web-ready 3D model<br/>• Embed code + QR code<br/>• Branded demo section<br/>• Basic performance check</p>
+            <div class="tag">LICENSE</div>
+            <h3 style="margin:10px 0 6px; font-size:26px;">Embed License</h3>
+            <p style="font-size:22px; font-weight:800; margin:0 0 10px;">Request pricing</p>
+            <p>Embed a product‑style 3D/AR viewer on your website, landing pages, or QR signage.</p>
+            <p><b>Includes</b><br/>• Hosted WebAR viewer<br/>• Embeddable link + QR<br/>• Brand styling + CTAs<br/>• Compatibility + performance check</p>
           </div>
 
           <div class="glass card reveal">
-            <div class="tag">PRO</div>
-            <h3 style="margin:10px 0 2px; font-size:22px;">Showroom Bundle</h3>
-            <p style="font-size:30px; margin:6px 0 0; font-weight:850;">$399</p>
-            <p>A mini catalog you can share and embed anywhere.</p>
-            <p><b>Includes</b><br/>• Up to 5 optimized 3D models<br/>• Full showroom page + navigation<br/>• QR codes for each model<br/>• Lightweight click tracking setup</p>
+            <div class="tag">SUBSCRIPTION</div>
+            <h3 style="margin:10px 0 6px; font-size:26px;">Showroom Subscription</h3>
+            <p style="font-size:22px; font-weight:800; margin:0 0 10px;">Request pricing</p>
+            <p>A multi‑page showroom (like the demos on this site) built for lead‑gen and sharing.</p>
+            <p><b>Includes</b><br/>• Dedicated demo pages<br/>• Request form / lead capture<br/>• Content updates + support<br/>• Analytics‑ready embeds</p>
           </div>
 
           <div class="glass card reveal">
-            <div class="tag">ENTERPRISE</div>
-            <h3 style="margin:10px 0 2px; font-size:22px;">Workflow + Scaling</h3>
-            <p style="font-size:30px; margin:6px 0 0; font-weight:850;">Custom</p>
-            <p>For teams that need repeatable AR publishing.</p>
-            <p><b>Includes</b><br/>• Model pipeline + optimization standards<br/>• Branded multi-page site + embeds<br/>• Hosting + maintenance options<br/>• Collaboration + review loop</p>
+            <div class="tag">PERFORMANCE</div>
+            <h3 style="margin:10px 0 6px; font-size:26px;">Commission (Optional)</h3>
+            <p style="font-size:22px; font-weight:800; margin:0 0 10px;">Aligned incentives</p>
+            <p>For the right partners, we can structure performance pricing tied to outcomes.</p>
+            <p><b>Includes</b><br/>• Revenue share / commission options<br/>• Tracking &amp; reporting setup<br/>• Collaborative experiments<br/>• Long‑term partner support</p>
           </div>
+        </div>
+
+        <div class="ctaRow">
         </div>
       </div>
     </section>
 
-    <section id="about">
-      <div class="wrap">
-        <div class="sectionHead">
-          <h2 class="h2">About</h2>
-        </div>
+<!-- About Prime Rig (Generic) -->
+<section id="about">
+<div class="wrap">
+<div class="sectionHead">
+<h2 class="h2">About Prime Rig</h2>
+</div>
+<div class="glass card reveal">
+<p style="color: rgba(255,255,255,.78); line-height:1.7; font-size:18px;">
+Prime Rig is a curated set of browser-based AR experiences that help restaurants showcase menus, brands present products and art in a dust-free virtual showroom, and real estate teams communicate space with confidence.
+</p>
+<div style="height:14px"></div>
+<div class="glass card" style="background: rgba(255,255,255,.06);">
+<div class="tag">Origin</div>
+<p>
+AR has been around for nearly a decade in social platforms like Snapchat and Meta experiences, and it’s been adopted by top retailers and consumer tech brands. Prime Rig focuses on the missing piece: bringing that same interaction into practical business applications—menus, product pages, sales enablement, and real-estate visualization—without requiring an app install.
+</p>
+</div>
+</div>
+</div>
+</section>
 
-        <div class="glass founder reveal">
-          <div class="headshot">
-            <img src="assets/yamen-seanwan.jpg" alt="Yamen Seanwan, CEO & Founder" />
-          </div>
-          <div>
-            <div class="tag">Yamen Seanwan • CEO & Founder</div>
-            <h3 style="margin:12px 0 8px; font-size:26px; letter-spacing:-.01em;">Turning “cool demos” into business-ready AR.</h3>
-            <p style="margin:0; color:rgba(255,255,255,.78); line-height:1.7;">
-              Prime Rig started from a simple problem: businesses had access to incredible AR capabilities, but no practical way to deploy them fast, consistently,
-              and beautifully. I built Prime Rig to productize WebAR—using proven platforms and best practices—so companies can launch showrooms that feel premium,
-              load quickly, and work across modern devices.
-            </p>
-
-            <div style="height:14px"></div>
-
-            <div class="glass card" style="background: rgba(255,255,255,.06);">
-              <div class="tag">Origin</div>
-              <p>
-                AR has been around for nearly a decade in social platforms like Snapchat and Meta experiences, and it’s been adopted by top retailers and consumer
-                tech brands. Prime Rig focuses on the missing piece: bringing that same interaction into practical business applications—menus, product pages,
-                sales enablement, and real-estate visualization—without requiring an app install.
-              </p>
-              <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- Origin Story Section -->
+<section id="origin" class="about-section">
+  <div class="wrap">
+    <div class="sectionHead">
+      <h2 class="h2">Origin Story</h2>
+      <p class="subhead">How Prime Rig came to be</p>
+    </div>
+    <div class="glass card about-content">
+      <div class="about-quote">
+        <p>AR has been around for nearly a decade in social platforms like Snapchat and Meta experiences, and it’s been adopted by top retailers and consumer tech brands. Prime Rig focuses on the missing piece: bringing that same interaction into practical business applications—menus, product pages, sales enablement, and real-estate visualization—without requiring an app install.</p>
+        <cite>— Founder</cite>
       </div>
-    </section>
+      <p style="color: rgba(255,255,255,.78); line-height: 1.7;">Prime Rig started from a simple problem: businesses had access to incredible AR capabilities, but no practical way to deploy them fast, consistently, and beautifully. We built Prime Rig to productize WebAR—using proven platforms and best practices—so companies can launch showrooms that feel premium, load quickly, and work across modern devices.</p>
+    </div>
+  </div>
+</section>
 
-    <section id="demo">
-      <div class="wrap">
-        <div class="sectionHead">
-          <h2 class="h2">Request a Demo</h2>
-          <p class="subhead">Tell us what you want to showcase and we’ll draft a fast, clean showroom plan.</p>
-        </div>
-
-        <div class="glass reveal">
-          <!-- Formspree: sends submissions to your inbox -->
-          <form class="form" id="demoForm" action="https://formspree.io/f/xnjngoky" method="POST">
-            <input type="hidden" name="_subject" value="Prime Rig — Demo Request" />
-            <div class="formGrid">
-              <input class="field" name="name" placeholder="Your name" required />
-              <input class="field" name="company" placeholder="Company / brand" />
-            </div>
-            <input class="field" type="email" name="email" placeholder="Email" required />
-            <textarea class="field" name="message" placeholder="What do you want to showcase? (menu, product, space, art…)" required></textarea>
-
-            <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
-              <button class="btn primary" type="submit"><span>Send Request</span></button>
-            </div>
-
-            <div class="metaNote" id="formStatus" aria-live="polite">This form sends directly to our inbox. We typically reply within 1 business day.</div>
-          </form>
-        </div>
+<!-- Mission Section -->
+<section id="mission" class="about-section">
+  <div class="wrap">
+    <div class="sectionHead">
+      <h2 class="h2">Our Mission</h2>
+      <p class="subhead">Democratizing AR for business</p>
+    </div>
+    <div class="about-grid">
+      <div class="glass card about-card">
+        <span class="about-icon">🎯</span>
+        <h3>Accessibility</h3>
+        <p>Make AR technology accessible to businesses of all sizes without complex setup or expensive development.</p>
       </div>
-    </section>
+      <div class="glass card about-card">
+        <span class="about-icon">⚡</span>
+        <h3>Performance</h3>
+        <p>Deliver fast, lightweight experiences that work seamlessly across all modern devices and browsers.</p>
+      </div>
+      <div class="glass card about-card">
+        <span class="about-icon">🎨</span>
+        <h3>Premium Quality</h3>
+        <p>Ensure every showroom looks beautiful and professional, representing brands at their best.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <footer class="footer">
-      <div class="wrap">
-        <div class="glass card">
-          <p style="margin:0;">
+<!-- Vision Section -->
+<section id="vision" class="about-section">
+  <div class="wrap">
+    <div class="sectionHead">
+      <h2 class="h2">Our Vision</h2>
+      <p class="subhead">The future of business interaction</p>
+    </div>
+    <div class="glass card">
+      <p style="color: rgba(255,255,255,.78); line-height: 1.7; font-size: 18px;">We envision a world where every product, space, and menu can be experienced in AR before purchase—reducing uncertainty, increasing confidence, and creating deeper connections between businesses and their customers.</p>
+      <div style="margin-top: 20px; padding: 20px; background: rgba(255,255,255,.06); border-radius: 18px;">
+        <p style="margin: 0; color: rgba(255,255,255,.9);"><strong>By 2026</strong>, we aim to power AR experiences for over 1,000 businesses across retail, hospitality, and real estate sectors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="demo" aria-label="Request a demo">
+<div class="wrap">
+<div class="sectionHead">
+<h2 class="h2">Request a Demo</h2>
+<p class="subhead">Tell us what you want to showcase and we’ll draft a fast, clean showroom plan.</p>
+</div>
+<div class="glass reveal">
+<form action="https://formspree.io/f/xnjngoky" class="form" id="demoForm" method="POST">
+<input name="_subject" type="hidden" value="Prime Rig — Demo Request"/>
+<div class="formGrid">
+<input class="field" name="name" placeholder="Your name" required="" autocomplete="name" aria-label="Your name"/>
+<input class="field" name="company" placeholder="Company / brand" autocomplete="organization" aria-label="Company or brand"/>
+</div>
+<input class="field" name="email" placeholder="Email" required="" type="email" autocomplete="email" aria-label="Email address"/>
+<textarea class="field" name="message" placeholder="What do you want to showcase? (menu, product, space, art…)" required="" aria-label="What do you want to showcase"></textarea>
+<div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+<button class="btn primary" type="submit"><span>Send Request</span></button>
+</div>
+<div aria-live="polite" class="metaNote" id="formStatus">This form sends directly to our inbox. We typically reply within 1 business day.</div>
+</form>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="wrap">
+<div class="glass card">
+<p style="margin:0;">
             © <span id="year"></span> Prime Rig • contact@prime-rig.com
             <span style="opacity:.75; margin:0 10px;">•</span>
-            <a href="assets/docs/prime-rig-privacy-policy.pdf" download>Privacy Policy (PDF)</a>
-            <span style="opacity:.75; margin:0 10px;">•</span>
-            <a href="assets/docs/prime-rig-terms-and-conditions.pdf" download>Terms (PDF)</a>
-          </p>
-        </div>
-      </div>
-    </footer>
-  </main>
+<a download="" href="assets/docs/prime-rig-privacy-policy.pdf">Privacy Policy (PDF)</a>
+<span style="opacity:.75; margin:0 10px;">•</span>
+<a download="" href="assets/docs/prime-rig-terms-and-conditions.pdf">Terms (PDF)</a>
+</p>
+</div>
+</div>
+</footer>
+</main>
 
-  <script src="script.js"></script>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
